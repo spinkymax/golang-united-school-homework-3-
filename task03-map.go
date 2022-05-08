@@ -14,8 +14,7 @@ func sortMapValues(input map[int]string) (result []string) {
 	sort.Ints(keys)
 
 	for _, j := range keys {
-		value = append(value, input[j])
-		j++
+		value = append(value, input[keys[j]])
 
 	}
 	return
