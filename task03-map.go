@@ -1,6 +1,6 @@
 package homework
 
-import "Sort"
+import "sort"
 
 
 func sortMapValues(input map[int]string) (result []string) {
