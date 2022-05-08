@@ -6,6 +6,7 @@ var sum float32 = 0
 	for _, number := range input {
 		sum += number
 	}	
-	result = sum / 15
-	return
+	N := float32(len(input))
+	av := sum / N
+	return av
 }
