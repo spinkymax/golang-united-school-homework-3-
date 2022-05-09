@@ -9,5 +9,5 @@ func reverse(input []int64) (result []int64) {
 			slice[j], slice[j+1] = slice[j+1], slice[j]
 		}
 	} 
- 	return
+ 	return slice
 }
