@@ -18,5 +18,5 @@ func sortMapValues(input map[int]string) (result []string) {
 		j++
 
 	}
-	return
+	return value
 }
